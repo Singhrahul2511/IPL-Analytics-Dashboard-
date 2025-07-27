@@ -1,0 +1,15 @@
+# Python virtual environment
+venv/
+rahul/
+
+# IDE and OS files
+.idea/
+.vscode/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+
+# Cache directory created by Flask-Caching
+cache/

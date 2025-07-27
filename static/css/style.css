@@ -1,0 +1,28 @@
+#sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    padding: 48px 0 0; 
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+    
+    /* --- New Rules for Scrolling --- */
+    max-height: 100vh; /* Ensure sidebar is never taller than the screen */
+    overflow-y: auto; /* Add a vertical scrollbar ONLY when needed */
+}
+
+.sidebar-heading {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+main {
+    padding-top: 1rem;
+}
+
+.filter-section {
+    padding: 0 1rem 1rem 1rem; /* Add some padding for spacing */
+    border-bottom: 1px solid #eee;
+    margin-bottom: 1rem;
+}
