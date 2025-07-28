@@ -14,20 +14,20 @@ A production-ready, full-stack web application that provides deep, interactive, 
 
 ## 🖼️ **Demo Screenshots**
 
-    ### 🏏🤝Analyze Team H2H
-    ![Analyze Team H2H](demo/Team Head-to-Head.png)
+### 🏏🤝Analyze Team H2H
+![Analyze Team H2H](demo/Team Head-to-Head.png)
 
-    ### 📊 Get Player Statistics
-    ![overview](demo/Overall Player Analysis-virat kohli.png)
+### 📊 Get Player Statistics
+![Get Player Statistics](demo/Overall Player Analysis-virat kohli.png)
 
-    ### 📊 Get Player Statistics
-    ![Get Player Statistics](demo/Overall Player Analysis-MS Dhoni.png)
+### 📊 Get Player Statistics
+![Get Player Statistics](demo/Overall Player Analysis-MS Dhoni.png)
 
-    ### 🏟️📈 Analyze Venues (Winning Chances of Team in a Specific Stadium)
-    ![Winning Chances](demo/Venue Fortress(winning chance).png)
+### 🏟️📈 Analyze Venues (Winning Chances of Team in a Specific Stadium)
+![Winning Chances](demo/Venue Fortress(winning chance).png)
 
-    ### 🔮⚔️ Winning Prediction of Match Between 2 Teams
-    ![Winning Prediction](demo/Win Prediction.png)
+### 🔮⚔️ Winning Prediction of Match Between 2 Teams
+![Winning Prediction](demo/Win Prediction.png)
 
 ---
 
