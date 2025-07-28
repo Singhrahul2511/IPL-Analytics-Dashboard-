@@ -21,7 +21,7 @@ A production-ready, full-stack web application that provides deep, interactive, 
 ![Get Player Statistics](demo/Overall Player Analysis-virat kohli.png)
 
 ### 📊 Get Player Statistics
-![Get Player Statistics](demo/Overall Player Analysis-MS Dhoni.png)
+![Get Player Statistics](demo/Overall-Player Analysis-Dhoni.png)
 
 ### 🏟️📈 Analyze Venues (Winning Chances of Team in a Specific Stadium)
 ![Winning Chances](demo/Venue Fortress(winning chance).png)
