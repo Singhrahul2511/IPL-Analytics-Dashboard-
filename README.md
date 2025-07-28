@@ -15,19 +15,22 @@ A production-ready, full-stack web application that provides deep, interactive, 
 ## 🖼️ **Demo Screenshots**
 
 ### 🏏🤝Analyze Team H2H
-![Analyze Team H2H](demo/Team Head-to-Head.png)
+    ![Analyze Team H2H](demo/team.png)
 
 ### 📊 Get Player Statistics
-![Get Player Statistics](demo/Overall Player Analysis-virat kohli.png)
+![Get Player Statistics](demo/virat.png)
 
 ### 📊 Get Player Statistics
-![Get Player Statistics](demo/Overall-Player Analysis-Dhoni.png)
+![Get Player Statistics](demo/dhoni.png)
+
+### 📈 Get Player vs Bowler Analysis
+![Player vs Bowler](demo/Player.png)
 
 ### 🏟️📈 Analyze Venues (Winning Chances of Team in a Specific Stadium)
-![Winning Chances](demo/Venue Fortress(winning chance).png)
+![Winning Chances](demo/venue.png)
 
 ### 🔮⚔️ Winning Prediction of Match Between 2 Teams
-![Winning Prediction](demo/Win Prediction.png)
+![Winning Prediction](demo/WinPrediction.png)
 
 ---
 
@@ -82,25 +85,6 @@ ipl-analytics-dashboard/
 └── README.md           # This file
 
 ```
----
-
-## 🖼️ **Demo Screenshots**
-
-### 🏏🤝Analyze Team H2H
-![Analyze Team H2H](demo/Team Head-to-Head.png)
-
-### 📊 Get Player Statistics
-![Get Player Statistics](demo/Overall Player Analysis-virat kohli.png)
-
-### 📊 Get Player Statistics
-![Get Player Statistics](demo/Overall-Player Analysis-Dhoni.png)
-
-### 🏟️📈 Analyze Venues (Winning Chances of Team in a Specific Stadium)
-![Winning Chances](demo/Venue Fortress(winning chance).png)
-
-### 🔮⚔️ Winning Prediction of Match Between 2 Teams
-![Winning Prediction](demo/Win Prediction.png)
-
 ---
 
 ## Endpoints
