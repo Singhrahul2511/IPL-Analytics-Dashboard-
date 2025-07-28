@@ -15,7 +15,7 @@ A production-ready, full-stack web application that provides deep, interactive, 
 ## 🖼️ **Demo Screenshots**
 
 ### 🏏🤝Analyze Team H2H
-    ![Analyze Team H2H](demo/team.png)
+![Analyze Team H2H](demo/team.png)
 
 ### 📊 Get Player Statistics
 ![Get Player Statistics](demo/virat.png)
