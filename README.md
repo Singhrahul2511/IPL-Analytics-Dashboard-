@@ -8,17 +8,26 @@ A production-ready, full-stack web application that provides deep, interactive, 
 
 ## 🚀 Live Demo
 
-**[Link to your deployed application on Render]** *(Replace this with your live URL after deployment)*
+**[https://ipl-dashboard-rahul.onrender.com/]**
 
 ---
 
-## 📸 Screenshots
+## 🖼️ Demo Screenshots
 
-*(It's highly recommended to add screenshots of your final dashboard here to showcase the UI)*
+### 🏏🤝Analyze Team H2H
+![Dashboard](demo/Team Head-to-Head.png)
 
-| Main Dashboard View | Player Analysis |
-| :-----------------: | :---------------: |
-|   `![Dashboard](screenshots/dashboard.png)`    |  `![Player Stats](screenshots/player.png)`   |
+### 📊 Get Player Statistics
+![overview](demo/Overall Player Analysis-virat kohli.png)
+
+### 📊 Get Player Statistics
+![Funding Graph](demo/Overall Player Analysis-MS Dhoni.png)
+
+### 🏟️📈 Analyze Venues (Winning Chances of Team in a Specific Stadium)
+![Information](demo/Venue Fortress(winning chance).png)
+
+### 🔮⚔️ Winning Prediction of Match Between 2 Teams
+![Top Funded Startup](demo/Win Prediction.png)
 
 ---
 
@@ -57,7 +66,7 @@ A production-ready, full-stack web application that provides deep, interactive, 
 ---
 
 ## 📁 Project Structure
-
+```bash
 ipl-analytics-dashboard/
 ├── app.py              # Main Flask application
 ├── api/                # API endpoint blueprints
@@ -72,8 +81,7 @@ ipl-analytics-dashboard/
 ├── Procfile            # Deployment configuration
 └── README.md           # This file
 
-
-
+```
 ---
 
 ## Endpoints
@@ -94,47 +102,57 @@ ipl-analytics-dashboard/
 
 Follow these steps to run the project on your local machine.
 
-### 1. Clone the Repository
-```bash
-git clone [https://github.com/your-username/ipl-analytics-dashboard.git](https://github.com/your-username/ipl-analytics-dashboard.git)
-cd ipl-analytics-dashboard
-
-
-
-2. Create and Activate a Virtual Environment
+1. **Clone the Repository**
+        ```bash
+        git clone [https://github.com/Singhrahul2511/IPL-Analytics-Dashboard-.git]
+        cd ipl-analytics-dashboard
+        ```
+---
+2. **Create and Activate a Virtual Environment**
 It's highly recommended to use a virtual environment.
 
-Bash
+    ```bash
 
-# For Windows
-python -m venv venv
-venv\Scripts\activate
+    # For Windows
+    python -m venv venv
+    venv\Scripts\activate
 
-# For macOS/Linux
-python3 -m venv venv
-source venv/bin/activate
-3. Install Dependencies
-Install all the required Python packages.
+    # For macOS/Linux
+    python3 -m venv venv
+    source venv/bin/activate
+    3. Install Dependencies
+    Install all the required Python packages.
 
-Bash
+    ```
+---
+3. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+---
+4. **Train the Machine Learning Model**
+    This is a one-time step. Run this script to create the 
+    win_predictor.pkl file in the model/ directory.
+    ```bash
+    python train_model.py
+    5. Run the Application
+    Start the Flask development server.
 
-pip install -r requirements.txt
-4. Train the Machine Learning Model
-This is a one-time step. Run this script to create the win_predictor.pkl file in the model/ directory.
+    ```
+---
+5. **Run the application**
+   ```bash
+   python app.py
+   ```
+---
+4. **Open Your browser**
+   ```bash
+   The application will be available at http://127.0.0.1:8000.
+   ```
+---
 
-Bash
-
-python train_model.py
-5. Run the Application
-Start the Flask development server.
-
-Bash
-
-python app.py
-The application will be available at http://127.0.0.1:8000.
-
-☁️ Deployment to Render
-This project is configured for a seamless deployment on Render's free tier.
+## ☁️ Deployment to Render
+### This project is configured for a seamless deployment on Render's free tier.
 
 1. Host on GitHub
 Create a new repository on your GitHub account.
@@ -162,7 +180,6 @@ Start Command: gunicorn app:app (Render automatically detects this from your Pro
 
 Click "Create Web Service". Render will pull your code, install the dependencies, and start the application. Your dashboard will be live at the URL provided by Render in a few minutes!
 
+---
 
-📜 License
-This project is licensed under the MIT License - see the LICENSE file for details.
-(You can add a LICENSE file with the MIT license text if you wish)
+## 📜 License
